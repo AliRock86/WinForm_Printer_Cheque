@@ -43,8 +43,8 @@ namespace WindowsFormsApp1
             e.Graphics.DrawString(textBox1.Text, f, Brushes.Black, 706, 255);
              e.Graphics.DrawString(textBox3.Text, f, Brushes.Black, 615, 276);
             e.Graphics.DrawString(textBox4.Text, f, Brushes.Black, 725, 307);
-            e.Graphics.DrawString(textBox5.Text, f, Brushes.Black, 810, 338);
-            e.Graphics.DrawString(textBox6.Text, f, Brushes.Black, 810, 374);
+            e.Graphics.DrawString(textBox5.Text, f, Brushes.Black, 750, 338);
+            e.Graphics.DrawString(textBox6.Text, f, Brushes.Black, 600, 374);
             e.Graphics.DrawString(textBox7.Text, f, Brushes.Black, 700, 433);
             e.Graphics.DrawString(textBox8.Text, f, Brushes.Black, 838, 433);
         }
