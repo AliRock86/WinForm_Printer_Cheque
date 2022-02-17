@@ -39,14 +39,15 @@ namespace WindowsFormsApp1
             dateTimePicker1.CustomFormat = "yyyy-MM-dd";
             // e.Graphics.DrawImage(Properties.Resources.h_001, 470, 242 , 710, 260);
             Font f = new Font("Arial" , 12 , FontStyle.Regular);
-             e.Graphics.DrawString(dateTimePicker1.Text, f, Brushes.Black, 526, 255);
-            e.Graphics.DrawString(textBox1.Text, f, Brushes.Black, 706, 255);
-             e.Graphics.DrawString(textBox3.Text, f, Brushes.Black, 615, 276);
+            Font f1 = new Font("Arial", 9, FontStyle.Regular);
+            e.Graphics.DrawString(dateTimePicker1.Text, f, Brushes.Black, 526, 255);
+            e.Graphics.DrawString(textBox1.Text, f, Brushes.Black, 710, 255);
+             e.Graphics.DrawString(textBox3.Text, f1, Brushes.Black, 574, 280);
             e.Graphics.DrawString(textBox4.Text, f, Brushes.Black, 725, 307);
             e.Graphics.DrawString(textBox5.Text, f, Brushes.Black, 750, 338);
             e.Graphics.DrawString(textBox6.Text, f, Brushes.Black, 600, 374);
-            e.Graphics.DrawString(textBox7.Text, f, Brushes.Black, 700, 433);
-            e.Graphics.DrawString(textBox8.Text, f, Brushes.Black, 838, 433);
+            e.Graphics.DrawString(textBox7.Text, f, Brushes.Black, 700, 430);
+            e.Graphics.DrawString(textBox8.Text, f, Brushes.Black, 838, 430);
         }
 
         private void button1_Click_1(object sender, EventArgs e)
